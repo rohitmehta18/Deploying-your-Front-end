@@ -1,0 +1,63 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f7fa, #e0f2f1);
+  color: #333;
+  padding: 20px;
+}
+
+/* Container Styling */
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  border-top: 5px solid #14b8a6; /* Teal Accent */
+}
+
+/* Heading Style */
+h1 {
+  font-size: 2.5rem;
+  color: #14b8a6; /* Soft Teal */
+  margin-bottom: 1rem;
+}
+
+/* Paragraph Styling */
+p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+/* Button Styling */
+button {
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #f59e0b; /* Warm Yellow */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #d97706; /* Darker Yellow */
+  transform: translateY(-2px);
+}
